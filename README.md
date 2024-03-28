@@ -1,6 +1,6 @@
 # Git
 
-![](images/git.png)
+![](Images/git.png)
 
 git is a product from Linus Torwarlds, the same person who is a major contributor and founder of LINUX
 
