@@ -1,13 +1,12 @@
-# Git
+# Git ( Important Notes and commands related to GIT )
 
 ![](Images/git.png)
 
 git is a product from Linus Torwarlds, the same person who is a major contributor and founder of LINUX
+ 
 
-### Important Notes and commands related to GIT 
-
-## git : Is a local version control system 
-## github, bitbucket, gitlab are the Central Version Systems 
+### git : Is a local version control system 
+   * github, bitbucket, gitlab are the Central Version Systems 
 
 #### What is GIT ?
 
