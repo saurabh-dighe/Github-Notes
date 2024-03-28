@@ -82,7 +82,7 @@ Git and Linux are like oceans, infinite things are there to learn. Both of them 
 
 #### GIT Has Branch Protection Rules Enabled to ensure you cannot push your changes directly to the MAIN Branch and always changes has to go through Pull Request only.
 
-### Command to give a name in your commit history 
+#### Command to give a name in your commit history 
 
 ```
         git config --global user.name "CodingManoj"
@@ -90,22 +90,22 @@ Git and Linux are like oceans, infinite things are there to learn. Both of them 
 ```
 
 
-## V.Important Git Options That are commonly used
+#### V.Important Git Options That are commonly used
 
 To see the list of commits 
 
     ```$ git log ```
 
-# To see the list of only last 3 commits
+#### To see the list of only last 3 commits
 
     ```$ git log -n 3 ```
 
-# To see the list of only last 3 commits along with the changes against those commints ? -p Shows the actual code changes introduced in each commit.
+#### To see the list of only last 3 commits along with the changes against those commints ? -p Shows the actual code changes introduced in each commit.
 
    ```$ git log -n 3 --stat -p```
 
 
-# How to move between the commits ? 
+#### How to move between the commits ? 
 
 ``` Replace <commit-hash> with the actual commit hash you want to switch to. This will bring your working directory to the state it was in at that specific commit. 
 
@@ -117,7 +117,7 @@ To see the list of commits
     *   Be cautious with detached HEAD. You're not technically on a branch, and any changes you make won't be tracked by Git until you switch back to a branch.
     *   To return to a branch after using detached HEAD, you need to explicitly check it out again using git checkout <branch-name>.
 
-# How to move to the previous commits on the branch or move to a previous stage on the same branch ?
+#### How to move to the previous commits on the branch or move to a previous stage on the same branch ?
 
 ###  Checking Out the Previous Commit on the Current Branch:
 
@@ -133,7 +133,7 @@ Steps:
 
 
 
-# What is GIT STASH ?
+#### What is GIT STASH ?
 
 Git stash is a powerful tool in Git that allows you to temporarily save your uncommitted changes and come back to them later with a clean working directory. It's particularly useful in the following scenarios:
 
@@ -175,7 +175,7 @@ This will download the latest commit information and branch references from the 
 ```Combines git fetch and git merge in a single command.```
 
 
-# What is Cherry Pick ?
+##### What is Cherry Pick ?
 
 Cherry-picking allows you to selectively pick a specific commit (or a few commits) from one branch and apply it to another branch. It's like transplanting a specific change from one place in your Git history to another.
 
